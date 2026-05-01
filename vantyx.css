@@ -1,12 +1,12 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
+
 h1{
     text-align: center;
-    font-size: 250%;
-    background-image: url("images/background3.jpg");
+    font-size: 275%;
     background-position: 100%;
     color: white;
 }
@@ -22,49 +22,38 @@ table{
     position: relative;
     left: 5%;
     width: 90%;
-    border: 1px;
+    border: 5px;
     border-color: black;
     border-style: solid;
 }
 th{
-    border: 1px;
+    border: 2px;
     border-color: black;
     border-style: solid;
-    background-color: lightyellow;
+    background-color: rgb(255, 255, 255);
     font-size: 21px;
 }
 td{
     border: 1px;
     border-color: black;
     border-style: solid;
-    background-color: rgb(135, 210, 250) ;
+    background-color: rgb(255, 255, 255) ;
     color: black;
     font-size: large;
 }
 
 .Div2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(235, 172, 145);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+}
+.Div3{
+    text-align: left;
+    position: relative;
+    left: 0%;
 }
 
 .divHelper{
     margin-right: 80%;
-}
-
-.linkJoinEnt{
-    color: blue;
-}
-
-.wordleTextbox{
-    width: 200px;
-    height: 50px;
-    font-size: 85%;
-}
-
-.wordleButton{
-    width: 100px;
-    height: 40px;
-    font-size: xx-large;
 }
 
 
@@ -88,17 +77,20 @@ td{
         position: absolute;
         content: "";
         inset: 0;
+        border: 1px white solid;
         background: black;
         scale: 1 0 ;
         z-index: -1;
         transition: 0.25;
     }
     a:hover{
+        border: 1px white solid;
         color: white;
         background: black;
     }
     a:hover::after{
         scale: 1 1;
+        border: 1px white solid;
     }
     .Div2{
         text-align: center;
@@ -127,17 +119,20 @@ td{
         position: absolute;
         content: "";
         inset: 0;
+        border: 1px white solid;
         background: black;
         scale: 1 0 ;
         z-index: -1;
         transition: 0.25;
     }
     a:hover{
+        border: 1px white solid;
         color: white;
         background: black;
     }
     a:hover::after{
         scale: 1 1;
+        border: 1px white solid;
     }
     .Div2{
         text-align: center;
@@ -177,6 +172,7 @@ td{
     }
     a:hover::after{
         scale: 1 1;
+        border: 1px white solid;
     }
     .Div2{
         text-align: center;

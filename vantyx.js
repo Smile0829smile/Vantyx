@@ -58,14 +58,14 @@ function gishuud(){
 function sara(){
     var output = "";
     output += "<input type='button' value='butsah' onClick='gishuud()'><br><br>"
-    output += "<img src='profile_picture.jpg' height='150px'><br>";
-    output += "ner: <br>"
-    output += "nas: <br>"
-    output += "huis: <br>"
+    output += "<img src='profile_picture.jpg' height='150px'><br><div class='Div3'>";
+    output += "нэр: Sara<br>"
+    output += "нас: 16<br>"
+    output += "хүйс: эмэгтэй<br>"
     output += "something..... <br>"
     output += "uur yu yu oruulah talaar sain bodooroi, ene deer bga zurgiin ornd henii zurg oruulahaa bas yvuulaarai"
 
-    output+="<br><br>"
+    output+="</div>"
     idDivDisplay.innerHTML = output;
 }
 
@@ -73,14 +73,14 @@ function sara(){
 function nyxia(){
     var output = "";
     output += "<input type='button' value='butsah' onClick='gishuud()'><br><br>"
-    output += "<img src='profile_picture.jpg' height='150px'><br>";
-    output += "ner: <br>"
-    output += "nas: <br>"
-    output += "huis: <br>"
+    output += "<img src='profile_picture.jpg' height='150px'><br><div class='Div3'>";
+    output += "нэр: Nyxia<br>"
+    output += "нас: 16<br>"
+    output += "хүйс: эмэгтэй<br>"
     output += "something..... <br>"
     output += "uur yu yu oruulah talaar sain bodooroi, ene deer bga zurgiin ornd henii zurg oruulahaa bas yvuulaarai"
 
-    output+="<br><br>"
+    output+="</div>"
     idDivDisplay.innerHTML = output;
 }
 
@@ -88,14 +88,14 @@ function nyxia(){
 function mina(){
     var output = "";
     output += "<input type='button' value='butsah' onClick='gishuud()'><br><br>"
-    output += "<img src='profile_picture.jpg' height='150px'><br>";
-    output += "ner: <br>"
-    output += "nas: <br>"
-    output += "huis: <br>"
+    output += "<img src='mina.jpg' height='150px'><br><div class='Div3'>";
+    output += "нэр: Mina<br>"
+    output += "нас: 16<br>"
+    output += "хүйс: эмэгтэй<br>"
     output += "something..... <br>"
-    output += "uur yu yu oruulah talaar sain bodooroi, ene deer bga zurgiin ornd henii zurg oruulahaa bas yvuulaarai"
+    output += "uur yu yu oruulah talaar sain bodooroi"
 
-    output+="<br><br>"
+    output+="</div><br><br>"
     idDivDisplay.innerHTML = output;
 }
 
