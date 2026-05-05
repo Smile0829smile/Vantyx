@@ -19,23 +19,23 @@ members_age.push("16");
 //2
 members_age.push("16");
 //3
-members_age.push("16");
+members_age.push("14");
 
 //huwiin medeelel heseg
 var info = [];
 //1
-info.push("<input type='button' id='idSaraBtn' value='мэдээлэл' onClick='sara()'>");
+info.push("<input type='button' class='button' id='idSaraBtn' value='мэдээлэл' onClick='sara()'>");
 //2
-info.push("<input type='button' id='idNyxiaBtn' value='мэдээлэл' onClick='nyxia()'>");
+info.push("<input type='button' class='button' id='idNyxiaBtn' value='мэдээлэл' onClick='nyxia()'>");
 //3
-info.push("<input type='button' id='idMinaBtn' value='мэдээлэл' onClick='mina()'>");
+info.push("<input type='button' class='button' id='idMinaBtn' value='мэдээлэл' onClick='mina()'>");
 
 //main functions
 function homePage(){
-    var output = "<br>Vantyx хамтлаг нь Asteria entertainment-ийн анхны хамтлаг ба<br>";
+    var output = "Vantyx хамтлаг нь Asteria entertainment-ийн анхны хамтлаг ба<br>";
     output+= "2026-04-17 ны өдөр нээгдсэн байна";
 
-    output+="<br><br>";
+    output+="<br>";
     idDivDisplay.innerHTML = output;
 }
 
@@ -56,14 +56,13 @@ function gishuud(){
 //gishuud info
 //sara
 function sara(){
+    var b = 0;
     var output = "";
-    output += "<input type='button' value='butsah' onClick='gishuud()'><br><br>"
-    output += "<img src='profile_picture.jpg' height='150px'><br><div class='Div3'>";
-    output += "нэр: Sara<br>"
-    output += "нас: 16<br>"
+    output += "<input type='button' class='button' value='butsah' onClick='gishuud()'><br><br>"
+    output += "<img src='sara.png' height='175px'><br><div class='Div3'>";
+    output += "нэр: "+ group_members[b] +"<br>"
+    output += "нас: "+ members_age[b]+"<br>"
     output += "хүйс: эмэгтэй<br>"
-    output += "something..... <br>"
-    output += "uur yu yu oruulah talaar sain bodooroi, ene deer bga zurgiin ornd henii zurg oruulahaa bas yvuulaarai"
 
     output+="</div>"
     idDivDisplay.innerHTML = output;
@@ -71,14 +70,13 @@ function sara(){
 
 //nyxia
 function nyxia(){
+    var b = 1;
     var output = "";
-    output += "<input type='button' value='butsah' onClick='gishuud()'><br><br>"
-    output += "<img src='profile_picture.jpg' height='150px'><br><div class='Div3'>";
-    output += "нэр: Nyxia<br>"
-    output += "нас: 16<br>"
+    output += "<input type='button' class='button' value='butsah' onClick='gishuud()'><br><br>"
+    output += "<img src='nyxia.png' height='175px'><br><div class='Div3'>";
+    output += "нэр: "+ group_members[b] +"<br>"
+    output += "нас: "+ members_age[b]+"<br>"
     output += "хүйс: эмэгтэй<br>"
-    output += "something..... <br>"
-    output += "uur yu yu oruulah talaar sain bodooroi, ene deer bga zurgiin ornd henii zurg oruulahaa bas yvuulaarai"
 
     output+="</div>"
     idDivDisplay.innerHTML = output;
@@ -86,14 +84,13 @@ function nyxia(){
 
 //mina
 function mina(){
+    var b = 2;
     var output = "";
-    output += "<input type='button' value='butsah' onClick='gishuud()'><br><br>"
-    output += "<img src='mina.jpg' height='150px'><br><div class='Div3'>";
-    output += "нэр: Mina<br>"
-    output += "нас: 16<br>"
+    output += "<input type='button' class='button' value='butsah' onClick='gishuud()'><br><br>"
+    output += "<img src='mina.png' height='175px'><br><div class='Div3'>";
+    output += "нэр: "+ group_members[b] +"<br>"
+    output += "нас: "+ members_age[b]+"<br>"
     output += "хүйс: эмэгтэй<br>"
-    output += "something..... <br>"
-    output += "uur yu yu oruulah talaar sain bodooroi"
 
     output+="</div><br><br>"
     idDivDisplay.innerHTML = output;
@@ -102,6 +99,6 @@ function mina(){
 
 
 //other button
-function other(){
-    idDivDisplay.innerHTML = "End yu bairluulah talaar sain bodj bgd heleerei"
-}
+// function other(){
+//     idDivDisplay.innerHTML = "End yu bairluulah talaar sain bodj bgd heleerei"
+// }

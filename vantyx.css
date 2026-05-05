@@ -3,61 +3,6 @@ body{
     text-align: center;
 }
 
-
-h1{
-    text-align: center;
-    font-size: 275%;
-    background-position: 100%;
-    color: white;
-}
-h2{
-    text-align: center;
-    font-size: 150%;
-    /* background-color: lightcoral; */
-}
-hr{
-    color: black;
-}
-table{
-    position: relative;
-    left: 5%;
-    width: 90%;
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-}
-th{
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    background-color: rgb(255, 255, 255);
-    font-size: 21px;
-}
-td{
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    background-color: rgb(255, 255, 255) ;
-    color: black;
-    font-size: large;
-}
-
-.Div2{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(255, 255, 255);
-}
-.Div3{
-    text-align: left;
-    position: relative;
-    left: 0%;
-}
-
-.divHelper{
-    margin-right: 80%;
-}
-
-
-
 @media only screen and (max-width: 424px) {
     .wrapper-main {
         width : 100%;
@@ -67,7 +12,7 @@ td{
         cursor: pointer;
         color: black;
         background: white;
-        font-size: 30px;
+        font-size: 38px;
         padding: 0.1rem 0.2rem;
         transition: color 0.25s;
         border: 1px black solid;
@@ -95,7 +40,47 @@ td{
     .Div2{
         text-align: center;
         border: 1px black solid;
-        font-size: x-large;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+    .Div3{
+        text-align: left;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    h1{
+        text-align: center;
+        font-size: 400%;
+        background-position: 100%;
+        color: white;
+    }
+    table{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        border: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+    th{
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    td{
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255) ;
+        color: black;
+        font-size: 28px;
+    }
+    .button{
+        font-size: 25px;
     }
 }
 
@@ -109,7 +94,7 @@ td{
         cursor: pointer;
         color: black;
         background: white;
-        font-size: 40px;
+        font-size: 50px;
         padding: 0.15rem 0.3rem;
         transition: color 0.25s;
         border: 1px black solid;
@@ -137,21 +122,60 @@ td{
     .Div2{
         text-align: center;
         border: 1px black solid;
-        font-size: x-large;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+    .Div3{
+        text-align: left;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    h1{
+        text-align: center;
+        font-size: 400%;
+        background-position: 100%;
+        color: white;
+    }
+    table{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        border: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+    th{
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        font-size: 40px;
+    }
+    td{
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255) ;
+        color: black;
+        font-size: 40px;
+    }
+    .button{
+        font-size: 30px;
     }
 }
 
 @media only screen and (min-width: 601px) {
     .wrapper-main {
         width : 100%;
-        /* background-color: red; */
     }
     a{
         position: relative;
         cursor: pointer;
         color: black;
         background: white;
-        font-size: 20px;
+        font-size: 60px;
         padding: 0.5rem 1.4rem;
         transition: color 0.25s;
         border: 1px black solid;
@@ -177,14 +201,53 @@ td{
     .Div2{
         text-align: center;
         border: 1px black solid;
-        font-size: x-large;
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+    .Div3{
+        text-align: left;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    h1{
+        text-align: center;
+        font-size: 500%;
+        background-position: 100%;
+        color: white;
+    }
+    table{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        border: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+    th{
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        font-size: 60px;
+    }
+    td{
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255) ;
+        color: black;
+        font-size: 60px;
+    }
+    .button{
+        font-size: 50px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .wrapper-main {
         width : 100%;
-        /* background-color: green; */
     }
 
         /* nav{
@@ -204,59 +267,7 @@ td{
         cursor: pointer;
         color: black;
         background: white;
-        font-size: 25px;
-        padding: 0.5rem 1.8rem;
-        transition: color 0.25s;
-        border: 1px black solid;
-        height: 20px;
-    }
-    a::after{
-        position: absolute;
-        content: "";
-        inset: 0;
-        background: black;
-        scale: 1 0 ;
-        z-index: -1;
-        transition: 0.25;
-    }
-    a:hover{
-        color: white;
-        background: black;
-    }
-    a:hover::after{
-        scale: 1 1;
-    }
-    .Div2{
-        text-align: center;
-        border: 1px black solid;
-        font-size: x-large;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .wrapper-main {
-        width : 100%;
-        /* background-color: purple; */
-    }
-
-        /* nav{
-        width: 60%;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        height: 50px;
-        justify-content: center;
-        border: 2px black solid;
-        text-align: center;
-        position: absolute;
-        left: 20px;
-    } */
-    a{
-        position: relative;
-        cursor: pointer;
-        color: black;
-        background: white;
-        font-size: 25px;
+        font-size: 50px;
         padding: 0.5rem 3.3rem;
         transition: color 0.25s;
         border: 1px black solid;
@@ -281,6 +292,137 @@ td{
     .Div2{
         text-align: center;
         border: 1px black solid;
-        font-size: x-large;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+    .Div3{
+        text-align: left;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    h1{
+        text-align: center;
+        font-size: 500%;
+        background-position: 100%;
+        color: white;
+    }
+    table{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        border: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+    th{
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        font-size: 75px;
+    }
+    td{
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255) ;
+        color: black;
+        font-size: 75px;
+    }
+    .button{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper-main {
+        width : 100%;
+    }
+
+        /* nav{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        height: 50px;
+        justify-content: center;
+        border: 2px black solid;
+        text-align: center;
+        position: absolute;
+        left: 20px;
+    } */
+    a{
+        position: relative;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-size: 90px;
+        padding: 0.5rem 3.3rem;
+        transition: color 0.25s;
+        border: 1px black solid;
+        height: 20px;
+    }
+    a::after{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background: black;
+        scale: 1 0 ;
+        z-index: -1;
+        transition: 0.25;
+    }
+    a:hover{
+        color: white;
+        background: black;
+    }
+    a:hover::after{
+        scale: 1 1;
+    }
+    .Div2{
+        text-align: center;
+        border: 1px black solid;
+        font-size: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 255, 255);
+    }
+    .Div3{
+        text-align: left;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    h1{
+        text-align: center;
+        font-size: 700%;
+        background-position: 100%;
+        color: white;
+    }
+    table{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        border: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+    th{
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        font-size: 80px;
+    }
+    td{
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(255, 255, 255) ;
+        color: black;
+        font-size: 80px;
+    }
+    .button{
+        font-size: 90px;
     }
 }
